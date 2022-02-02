@@ -1,0 +1,32 @@
+.container {
+    background-color: yellow;
+    display: flex;
+    width: 900px;
+}
+.flex-container {
+    flex-basis: 30px;
+    height: 400px;
+    transition: 400ms;
+}
+.flex-container:nth-child(1) {
+    background-color: tomato;
+    flex-grow: 0;
+}
+.flex-container:nth-child(2) {
+    background-color: turquoise;
+}
+.flex-container:nth-child(3) {
+    background-color: violet;
+}
+.flex-container:nth-child(1):hover {
+    background-color: tomato;
+    flex-grow: 1;
+}
+.flex-container:nth-child(2):hover {
+    background-color: turquoise;
+    flex-grow: 1;
+}
+.flex-container:nth-child(3):hover {
+    background-color: violet;
+    flex-grow: 1;
+}

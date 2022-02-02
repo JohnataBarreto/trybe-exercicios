@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <style src="styles.css"></style>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="jquery-3.6.0.min.js">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
+</head>
+
+<body>
+    <SECtion>
+        <H1>EXERCICIO 6.1</H1>
+    </SECtion>
+    <fieldset class="quadros" id="quadro1">
+        <form action="" method="get">
+            Nome: <input class="form-control" class="" type="text" name="nome" required maxlength="40">
+            <br></br>
+            E-mail <input class="form-control" class="" type="email" name="email" maxlength="50" required>
+            <br></br>
+            CPF: <input class="form-control" class="" type="teCxt" name="cpf" maxlength="11" required>
+            <br></br>
+            Cidade: <input class="form-control" class="" type="text" name="cidade" maxlength="28" required>
+            <br></br>
+            Estado: <select class="form-control" name="estado"  id="dropdow-box" required>
+                
+            </select>
+            <br></br>
+            <label for="tipo1">
+            <input class="form-control" class="" type="radio" name="tipo" id="tipo1" value="cs" required> Casa</label>
+            <label for="tipo2"><input class="form-control" class="" type="radio" name="tipo" id="tipo2" value="ap"required> Apartamento</label>
+            
+        </form>
+    </fieldset class="quadros" id="quadro2">
+    <br></br>
+    <fieldset>
+        <div class="form-grup">Resumo do curriculo<br></br>
+        <textarea name="ResCur" id="" cols="30" rows="10" maxlength="1000" required></textarea></div class="form-grup">
+        <br></br>
+        Cargo <input class="form-control" type="text" maxlength="40" required>
+        <br></br>
+        Descrição do cargo <input class="form-control" class="" type="text" maxlength="500" required>
+        <br></br>
+        Data de inicio <input class="form-control" class="" type="date" name="inicio" id="data" required>
+        <br></br>
+        <button type="submit" id="envio">Enviar</button>
+        <button type="reset" id='limpar'>Limpar</button>
+
+
+    </fieldset>
+</body>
+
+</html>
